@@ -46,29 +46,6 @@ public class Task3 {
         int pos = inputArray[length - 1] * inputArray[length - 2];
 
         return Math.max(neg, pos);
-
-//        int negativeMax = 0;
-//        int negativeNextMax = 0;
-//        int max = -1;
-//        int nextMax = -1;
-//        for (int number : inputArray) {
-//            if (number >= 0) {
-//                if (number > max) {
-//                    nextMax = max;
-//                    max = number;
-//                } else if (number > nextMax) {
-//                    nextMax = number;
-//                }
-//            } else {
-//                if (number < negativeMax) {
-//                    negativeNextMax = negativeMax;
-//                    negativeMax = number;
-//                } else if (number < negativeNextMax) {
-//                    negativeNextMax = number;
-//                }
-//            }
-//        }
-//        return Math.max(nextMax * max, negativeMax * negativeNextMax);
     }
 
     /**
